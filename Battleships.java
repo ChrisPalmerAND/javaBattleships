@@ -1,3 +1,5 @@
+package javaBattleships;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Arrays;
@@ -19,7 +21,7 @@ class Battleship {
             this.coordinates.remove(guess);
             System.out.println(this.coordinates.size());
             if (this.coordinates.size() == 0){
-                System.out.println("Kill - That Battleship was sunk.");
+                System.out.println("Kill - That javaBattleships.Battleship was sunk.");
             } else {
                 System.out.println("Hit - Great, have another guess!");
             }

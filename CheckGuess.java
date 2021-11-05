@@ -1,3 +1,5 @@
+package javaBattleships;
+
 public class CheckGuess {
     public boolean checkGuess(String guess, Battleship b1, Battleship b2, Battleship b3){
         boolean b1Check = b1.adjustLocationArray(guess);

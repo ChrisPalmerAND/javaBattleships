@@ -1,7 +1,9 @@
+package javaBattleships;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class battleBoard {
+public class BattleBoard {
     List<String> topRow = new ArrayList<>();
     List<String> rowA = new ArrayList<>();
     List<String> rowB = new ArrayList<>();
@@ -12,7 +14,7 @@ public class battleBoard {
     List<String> rowG = new ArrayList<>();
     List<String> rowH = new ArrayList<>();
 
-    public battleBoard(){
+    public BattleBoard(){
         this.topRow.add("-");
         for(int i=0; i < 8; i++){
             this.topRow.add(String.valueOf(i + 1));
