@@ -1,1 +1,3 @@
 # javaBattleships
+
+Enjoy!
